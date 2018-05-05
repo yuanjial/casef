@@ -1,0 +1,744 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title></title>
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/map.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/base_media.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/big.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/small.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/smallst.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/shutter.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/animate.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function()
+{ setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script>
+
+<!-- start-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					var p = $(this).attr('href');console.log(p);
+					var $obj=$(''+p);					
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},500,function(){
+                      $obj.addClass('fadeUp').siblings('.page').removeClass('fadeUp');
+                    
+                     
+                     
+					});
+				});
+			});
+	</script>
+</head>
+<body>
+<style>
+.wrap{width: 100%;margin: 0 auto;}
+#owl-dem {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#owl-dem .item {
+    display: block;
+}
+#owl-dem img {
+    display: block;
+    width: 100%;
+}
+</style>	
+    
+<!-- //end-scrolling -->
+<!--header start here-->
+<div class="header">
+	<div class="container">
+		<div class="header-main">
+			
+		   <div class="logo">
+		   	 <img src="img/logo.png" alt=""/>
+		   </div>
+		   <div class="navg">
+		   	<div class="menu"> <img src="images/icon.png" alt=""/></div>
+		   	<ul class="res">
+		   		<li class="actives"><a class="scroll" href="#page1">首页</a><i></i></li>
+		   		<li><a class="scroll" href="#page2">关于我们</a><i></i></li>
+		   		<li><a class="scroll" href="#page3">业务范围</a><i></i></li>
+		   		<li><a class="scroll" href="#page4">解决方案</a><i></i></li>
+		   		<li><a class="scroll" href="#page5">公司案例</a><i></i></li>
+		   		<li><a class="scroll" href="#page6">精品推荐</a><i></i></li>
+		   		<li><a class="scroll" href="#page7">新闻中心</a><i></i></li>
+		   		<li><a class="scroll" href="#page8">联系我们</a><i></i></li>
+		   	</ul>
+		 
+							 <script>
+							   $( ".menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+						
+								  });
+								 });
+
+							</script>
+		
+		   </div>
+		
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+
+<!--header end here-->	
+<!--banner start here-->
+<script>
+	$(function(){
+    $('#owl-dem').owlCarousel({
+        items: 1,
+        itemsDesktop: [1199, 1],
+        itemsDesktopSmall: [979, 1],
+        itemsTablet: [768, 1],
+        itemsMobile: [479, 1],
+    });
+});
+</script>
+
+<div class="banner page" id="page1">
+	<a href="" class="page_title"  style="display: none;"><h3></h3><P></P></a>
+	<div id="owl-dem" class="owl-carousel">
+	    <div class="item">
+	   
+		    <div class="tex_box cen" align="center">
+		    	<div class="tex_contain  cen">
+		    	 		<span class="ban_tex1  cen">高端品牌网站</span>
+		    	 		<span class="ban_tex2  cen">website</span>
+		    	 		<span class="ban_tex3  cen">专注于设计体验，专业与解决方案</span>
+		    	 		<span class="ban_tex4  cen">智能相应&nbsp;&nbsp;&nbsp;个性定制&nbsp;&nbsp;&nbsp; 覆盖全网</span>
+		    	 		
+		    	</div>
+		    </div>    	
+	    	<div class="content bgcolor-5">
+				<div class="wrap">
+				  <canvas id="html5_3d_animation"></canvas>
+				  <div id="show"></div>
+				</div>
+			</div>   	
+	    </div>
+   
+	</div>
+</div>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script>
+	$(document).ready(function(){		
+                        $(window).resize(function(){
+                        	for(var i=0;i<$('.cen').length;i++){
+	                            $('.cen').eq(i).css({
+	                                //position:'absolute',
+	                                left: ($(window).width() - $('.cen').eq(i).outerWidth())/2,
+	                                top: ($(window).height() - $('.cen').eq(i).outerHeight())/2
+	                            });
+                          	 }
+                        });
+                        // 最初运行函数
+                        $(window).resize();
+                    });
+</script>
+
+	<script src="js/html5_3d_animation.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function() {
+			var width = $(window).width();
+			var height = $(window).height();
+//			alert(width+'='+height);
+	        $("#html5_3d_animation").html5_3d_animation({
+	            window_width: width,
+	            window_height: height,
+	            window_background: '#00113F',
+	            star_count: '1200',
+	            star_color: '#FBFFAF',
+	            star_depth: '100'
+	        });
+	    });
+	</script>
+
+<!--banner end here-->
+
+<!--关于我们start here-->
+<div class="about page" id='page2'>
+	 
+	<div class="container">
+		<a href="" class="page_title"><h3>OUR ADVANTAGES</h3><P>平台优势</P></a>
+		<div class="about-main" id="about-mover">
+			 <div class="clearfix"> </div>	
+			<div class="col-xs-12 col-sm-12  col-md-12 col-lg-12 prr">
+				<p class="pp servers_profile">通宝莱科技有限公司成立于2002年，卓立于深圳CBD中心地带。是专业从事智慧城市综合运营商、智能家居运营服务商和物联网大安防集成商的国家级高新技术企业。</p>
+			<span class="ser-line"> </span>
+			<img src="img/go.png"  class="go"/>
+			</div>
+		   <div class="col-xs-6 col-sm-6   about_item">
+				<div class="spinner"></div><p><strong>01</strong><span class="ser-line" id="ser-line"> </span>快交付</p>
+			</div>
+			<div class="col-xs-6 col-sm-6   about_item">
+				<div class="spinner"></div><p><strong>02</strong><span class="ser-line" id="ser-line"> </span>成本低</p>
+			</div>
+			<div class="col-xs-6 col-sm-6   about_item">
+				<div class="spinner"></div><p><strong>03</strong><span class="ser-line" id="ser-line"> </span>定制化</p>
+			</div>
+			<div class="col-xs-6 col-sm-6  about_item">
+				<div class="spinner"></div><p><strong>04</strong><span class="ser-line" id="ser-line"> </span>全周期</p>
+			</div>
+			 <div class="clearfix"> </div>	
+			 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ti">【&nbsp;&nbsp;点滴之间敬献我们对工作的热诚&nbsp;&nbsp;】</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pro">	
+				<img src="img/home.png" />
+				<p class="servers_profile">通宝莱以技术和创新为导向，瞄准移动互联、智能分析、云数据，积极开展“物联视界、智慧中国”的企业发展战略，致力于成为中国乃至世界智慧城市、智能家居和安全防范领域的领跑者。</p>
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 nian">	
+				<img src="img/home2.png" />
+				<p class="servers_profile">公司的智能家居业务集智能硬件、用户服务、平台内容、移动互联App四合一，为全球的家庭用户提供住宅安保、保险服务、智能教育等服务内容而打造的开放、互联、共享的威慧智能云服务生态平台。</p>
+				
+				</ul>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+
+</div>
+<!--关于我们end here-->
+<div class="line_box6">
+		<div class="container">
+			<ul>
+				
+				<li class="col-xs-12 col-sm-12 col-md-7 col-lg-9">
+					<img src="img/k.jpg"  style="margin: 0 auto;width: 100%;"/>
+					
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-4 col-lg-4"><a>了解我们</a></li>
+				<li class="col-xs-6 col-sm-6 col-md-4 col-lg-4"><a>合作伙伴</a></li>
+				<li class="col-xs-6 col-sm-6 col-md-4 col-lg-4"><a>案例中心</a></li>
+			</ul>
+			 <div class="clearfix"> </div>			
+		</div>
+		
+	</div>
+<!--业务范围-->
+   <div class="servers page" id="page3">
+   	
+   	    <div class="container">
+		   	  <a href="" class="page_title" ><h3>SERVERICE SCOPE</h3><P>服务范围</P></a>
+		   	 
+		   	 <p class="servers_profile">拥有超过10个APP开发技术及知识产权，100人以上的南京APP开发/网站制作团队，服务超过1000家企业 ！我们公司精通APP开发技术，拥有成熟团队和技术专家</p>
+     		<span class="ser-line"> </span>
+     		<img src="img/go.png"  class="go"/>
+     		<div class="servers_box">
+     			<ul>
+     				<li class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+     					<img  src="img/server1.png" class="col-xs-5 col-sm-3 col-md-10 col-lg-11"/>
+     					<div class="servers_item col-xs-7 col-sm-8 col-md-12 col-lg-12">
+     						<div class="servers_title">APP开发</div>
+	     					<div class="servers_details">		     								                  
+			                  <p>APP原型</p>
+			                   <p>第三方接口</p>
+			                
+			                  <p>APP界面</p>
+			                 
+			                   <p>Andorid开发</p>
+			                   <p>网站程序</p>
+			                  <p>APP制作上架</p>		               
+	     					</div>
+	     					</div>
+     					
+     				</li>
+     				<li class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+     					<img  src="img/server2.png" class="col-xs-5 col-sm-3 col-md-10 col-lg-11"/>
+     					<div class="servers_item col-xs-7 col-sm-8 col-md-12 col-lg-12">
+     						<div class="servers_title">微信开发</div>
+	     					<div class="servers_details">		     								                  
+			                  <p>H5制作</p>
+			                   <p>公众号</p>
+			                 
+			                  <p>微商城</p>
+			                 
+			                   <p>绑定微网站</p>
+			                 
+			                  <p>网站展示</p>	
+			                   <p>网站程序建设</p>
+	     					</div>
+	     					</div>
+     					
+     				</li>
+     				<li class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+     					<img  src="img/server3.png" class="col-xs-5 col-sm-3 col-md-10 col-lg-11"/>
+     					<div class="servers_item col-xs-7 col-sm-8 col-md-12 col-lg-12">
+     						<div class="servers_title">PC网站开发</div>
+	     					<div class="servers_details">		     								                  
+			                   <p>企业官网</p>
+			                  <p>电商网站</p>
+			                  <p>ios开发</p>
+			                 
+			                  <p>品牌网站</p>
+			                  <p>门户网站</p>
+			                   <p>Java网站</p>
+	     					</div>
+	     					</div>
+     					
+     				</li>
+     				<li class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+     					<img  src="img/server4.png" class="col-xs-5 col-sm-3 col-md-10 col-lg-11"/>
+     					<div class="servers_item col-xs-7 col-sm-8 col-md-12 col-lg-12">
+     						<div class="servers_title">行业软件套餐</div>
+	     					<div class="servers_details">		     								                  
+			                  <p>智慧城市系统</p>
+			                  <p>智慧物业APP</p>
+			                  <p>在线医疗APP</p>
+			                  <p>在线教育APP</p>
+			                  <p>分销APP系统</p>
+			                  <p>CRM系统</p>		               
+	     					</div>
+	     					</div>
+     					
+     				</li>
+     			</ul>
+     		</div>
+		       <!--<div class="bann-btn">
+		       	  <a href="#"> <span class="img-text"> </span>Read More About Incentive</a>
+		       </div>-->
+		    <!--  <a class="scroll" href="#gallery-mover"><span class="mover"> </span></a>-->
+			<div class="clearfix"> </div>
+		</div>
+		
+	</div>
+<!--业务范围end-->
+
+<!--解决方案start here-->
+<div class="solution page" id="page4">
+	<div style="width: 100%; background: #fff;overflow: hidden;">
+		<div class="container">
+			 <a href="" class="page_title"><h3>THE SOLUTION</h3><P>解决方案</P></a>
+		<p class="servers_profile">APP公司拥有智慧城市APP、网约车APP、智慧医疗诊疗APP开发、智能交通APP开发、智慧物业APP开发、智能硬件APP开发、商城电商APP开发、社交应用开发、
+	电子商务系统开发、O2O商业系统开发、微信商城分销系统开发等</p>
+	<span class="ser-line"> </span>
+	<img src="img/go.png"  class="go"/>
+		</div>
+	</div>
+	 
+		<div class="container">
+			
+			<div class="sevices-main" id="solution-mover">
+				<div class="ser-top">
+				  
+				
+			
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ser-grid">
+					<img src="images/s00.png" alt="" title="" class="pict1">
+					<h4 class="text1">母婴运动APP开发方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s0.png" alt="" title="" class="pict2">
+					<h4 class="text2">母婴运动APP开发方案</h4>
+					
+					
+				</div>
+				<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 ser-grid">
+					<img src="images/s110.png" alt="" title="" class="pict1">
+					<h4 class="text1">服务行业APP解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s1.png" alt="" title="" class="pict2">
+					<h4 class="text2">服务行业APP解决方案</h4>
+					
+					
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s33.png" alt="" title="" class="pict1">
+					<h4 class="text1">旅游APP解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s3.png" alt="" title="" class="pict2">
+					<h4 class="text2">旅游APP解决方案</h4>
+				
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s22.png" alt="" title="" class="pict1">
+					<h4 class="text1">在线教育APP设计方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s2.png" alt="" title="" class="pict2">
+					<h4 class="text2">在线教育APP设计方案</h4>
+				</div>
+				<div class="clearfix"> </div>	
+				
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s44.png" alt="" title="" class="pict1">
+					<h4 class="text1">餐饮APP解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s4.png" alt="" title="" class="pict2">
+					<h4 class="text2">餐饮APP解决方案</h4>
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s55.png" alt="" title="" class="pict1">
+					<h4 class="text1">网约车APP解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s5.png" alt="" title="" class="pict2">
+					<h4 class="text2">网约车APP解决方案</h4>
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s66.png" alt="" title="" class="pict1">
+					<h4 class="text1">在线直播解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s6.png" alt="" title="" class="pict2">
+					<h4 class="text2">在线直播解决方案</h4>
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s101.png" alt="" title="" class="pict1">
+					<h4 class="text1">家居行业APP解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s11.png" alt="" title="" class="pict2">
+					<h4 class="text2">家居行业APP解决方案</h4>
+				</div>
+				<div class="clearfix"> </div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s77.png" alt="" title="" class="pict1">
+					<h4 class="text1">互联网金融解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s7.png" alt="" title="" class="pict2">
+					<h4 class="text2">互联网金融解决方案</h4>
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s88.png" alt="" title="" class="pict1">
+					<h4 class="text1">移动办公APP开发解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s8.png" alt="" title="" class="pict2">
+					<h4 class="text2">移动办公APP开发解决方案</h4>
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s99.png" alt="" title="" class="pict1">
+					<h4 class="text1">智慧城市APP开发方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s9.png" alt="" title="" class="pict2">
+					<h4 class="text2">智慧城市APP开发方案</h4>
+				</div>
+				<div class="col-xs-6 col-sm-3  col-md-3 col-lg-3 ser-grid">
+					<img src="images/s100.png" alt="" title="" class="pict1">
+					<h4 class="text1">掌上社交解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s10.png" alt="" title="" class="pict2">
+					<h4 class="text2">掌上社交解决方案</h4>
+				</div>
+				
+				<div class="clearfix"> </div>	
+				<!--<div class="col-xs-4 col-sm-4  col-lg-3 ser-grid">
+					<img src="images/s77.png" alt="" title="" class="pict1">
+					<h4 class="text1">互联网金融解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s7.png" alt="" title="" class="pict2">
+					<h4 class="text2">互联网金融解决方案</h4>
+				</div>
+				<div class="col-xs-4 col-sm-4  col-lg-3 ser-grid">
+					<img src="images/s88.png" alt="" title="" class="pict1">
+					<h4 class="text1">移动办公APP开发解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s8.png" alt="" title="" class="pict2">
+					<h4 class="text2">移动办公APP开发解决方案</h4>
+				</div>
+				<div class="col-xs-4 col-sm-4  col-lg-3 ser-grid">
+					<img src="images/s99.png" alt="" title="" class="pict1">
+					<h4 class="text1">智慧城市APP开发方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s9.png" alt="" title="" class="pict2">
+					<h4 class="text2">智慧城市APP开发方案</h4>
+				</div>
+				<div class="col-xs-4 col-sm-4  col-lg-3 ser-grid">
+					<img src="images/s100.png" alt="" title="" class="pict1">
+					<h4 class="text1">掌上社交解决方案</h4>
+					<span class="ser-gridline"> </span>
+					<img src="images/s10.png" alt="" title="" class="pict2">
+					<h4 class="text2">掌上社交解决方案</h4>
+				</div>
+				
+			</div>
+			<div class="skills">
+			
+			  <div class="clearfix"> </div>
+			<!--  <a class="scroll" href="#pictures-mover"> <span class="mover"> </span> </a>-->
+			</div>
+		
+	    
+		</div>
+	
+	   
+	
+</div>
+<!--解决方案end here-->
+<!--公司案例 here-->
+<!--
+<script src="js/jquery.min.js"></script>-->
+<script src="js/owl.carousel.js"></script>
+<!--案例展示-->
+
+
+<div class="pictures page" id="page5">
+	
+	<div class="container">
+		<a href="" class="page_title"><h3>A CLASSIC CASE</h3><P>公司案例</P></a>
+		<p class="servers_profile">APP公司拥有智慧城市APP、网约车APP、智慧医疗诊疗APP开发、智能交通APP开发、智慧物业APP开发、智能硬件APP开发、商城电商APP开发、社交应用开发、
+	电子商务系统开发、O2O商业系统开发、微信商城分销系统开发等</p>
+		 <span class="ser-line"> </span>	
+		 <img src="img/go.png"  class="go"/>
+		<div class="pictures-main" id="pictures-mover">
+			
+					
+		    <div class="clearfix"> </div>
+	    </div>	    	
+	</div>
+	<div id=" col-xs-1 col-sm-12 col-md-12  col-lg-12" ><div id="owl-demo" class="owl-carousel"></div></div>
+</div>
+
+<!--公司案例end here-->
+<div class="footer-topbar">
+            <div class="main-wrap">
+              <img src="img/v.png" />
+               	
+            </div>
+            
+		
+</div>
+<!--精品推荐-->
+<div class="gallery page" id="page6">
+	
+	
+	<div class="container">
+		<div class="gallery-main" id="gallery-mover">			    
+				<div id="portfoliolist" class="portfoliolist col-xs-12 col-sm-12 col-md-5  col-lg-4">
+						
+					 <div class="gall-one">
+					 	<div class="portfolio-wrapper" id="portfolio-wrapper">
+							<img src="img/m.png" alt="">
+						</div>
+		              </div>
+		              
+		             
+					<div class="clearfix"> </div>
+				</div>
+				<div class="portfoliolist_right col-xs-12 col-sm-12 col-md-6  col-lg-6">
+					<a href="" class="page_title"><h3>PRODUCTS RECOMMENDED </h3><P>精品推荐</P></a>
+					<p class="servers_profile">已服务3000+企业客户，我们会再接再厉，为您提供更好的服务！<strong  style="font-weight: 500;
+    color: #040404;
+    font-size: 20px;
+    line-height: 95px;
+    width: 100%;
+    display: block;">咨询热线：0579-82753701</strong></p>
+					 <span class="ser-line"> </span>	
+					 <img src="img/go.png"  class="go"/>
+				</div>
+			    <div class="clearfix"> </div>
+				<div class="portfoliolist_right col-xs-12 col-sm-12 col-md-6  col-lg-6 ll">
+					<a href="" class="page_title"><h3>PRODUCTS RECOMMENDED </h3><P>精品推荐</P></a>
+					<p class="servers_profile">APP公司拥有智慧城市APP、网约车APP、智慧医疗诊疗APP开发、智能交通APP开发、智慧物业APP开发、智能硬件APP开发、商城电商APP开发、社交应用开发、
+				电子商务系统开发、O2O商业系统开发、微信商城分销系统开发等</p>
+					 <span class="ser-line"> </span>	
+					 <!--<img src="img/go.png"  class="go"/>-->
+				</div>
+				<div id="portfoliolist" class="portfoliolist col-xs-12 col-sm-12 col-md-5  col-lg-5">
+						
+					 <div class="gall-one">
+						<div class="col-xs-6 col-sm-6 portfolio-wrapper">		
+							<a href="img/pcimg1.jpg" class="b-link-stripe b-animate-go  swipebox"  title="精品展示">
+						     <img src="img/pcimg1.jpg"alt="" class="pc">
+							    <div class="b-wrapper">
+							     	<img src="img/wei1.png" alt="">
+							  	</div>
+							</a>
+		                </div>
+						<div class="col-xs-6 col-sm-6 portfolio-wrapper">		
+							<a href="img/pcimg2.jpg" class="b-link-stripe b-animate-go  swipebox"  title="精品展示">
+						     <img src="img/pcimg2.jpg" alt="" class="pc">
+						     <div class="b-wrapper">
+							     	<img src="img/wei1.png" alt="">
+							  </div>
+							</a>
+		                </div>
+		              </div>
+		              <div class="gall-one">   
+		                <div class="col-xs-6 col-sm-6 portfolio-wrapper">		
+							<a href="img/pcimg5.jpg" class="b-link-stripe b-animate-go  swipebox"  title="精品展示">
+						     <img src="img/pcimg5.jpg" alt="" class="pc">
+						     <div class="b-wrapper">
+							     	<img src="img/wei1.png" alt="">
+							  </div>
+							</a>
+		                </div>
+		                <div class="col-xs-6 col-sm-6 portfolio-wrapper">		
+							<a href="img/pcimg66.jpg" class="b-link-stripe b-animate-go  swipebox"  title="精品展示">
+						     <img src="img/pcimg6.jpg" alt="" class="pc">
+						     <div class="b-wrapper">
+							     	<img src="img/wei1.png" alt="">
+							  </div>
+							</a>
+		                </div>
+		                <div class="clearfix"> </div>	
+		             </div>	
+		             
+					<div class="clearfix"> </div>
+				</div>
+				<!-- <a class="scroll" href="#solution-mover"> <span class="mover"> </span> </a>-->
+		  <div class="clearfix"> </div>
+	</div>
+ </div>
+</div>
+<!--<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery.swipebox.min.js"> </script> 
+<script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+</script>-->
+
+<!--精品推荐end-->
+
+		
+<!--新闻中心start here-->
+<script src="js/Info.js"></script>
+<div class="news page" id='page7'>
+	  <div class="nav_bar">
+			   		<ul class="tab_bar">
+				   	<li class="actives">公司新闻</li>
+				   	<li>行业新闻</li>
+			   </ul>
+	</div>
+	<div class="container ">
+		 <a href="" class="page_title" style="padding: 0px; margin: 0px;"><h3></h3><P></P></a>
+		<div class="news-main" id="news-mover">
+			   <div class="news_box " id="news_box">			   	 
+			   </div>			  
+			 <div class="clearfix"> </div>
+		</div>
+	</div>
+   
+	
+
+
+</div>
+<!--新闻中心end here-->
+<!--联系我们 start here-->
+<div class="map page" id='page8'>
+
+		<div id="mapContainer" class="col-xs-12 col-sm-12  col-md-12 col-lg-12">
+		&nbsp;</div>
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=acec09c5cb681ce58f6b08dcee4ff705"></script>
+		<script src="js/map.js">
+			
+		</script>
+	<div class="contact" id="contact">
+	<div class="container">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 te">
+			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+				<!--<div class="col-xs-0 col-sm-0 col-md-3 col-lg-3" style="width:90px;">
+					<img src="img/foot.png" style="width:50px;margin: 0 auto;"/></div>-->
+				<ul class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<li><a href="" style="font-size: 16px;color: #fff;">相关网站</a></li>
+					<li><a href="">集团官网</a></li>
+					<li><a href="">小程序官网</a></li>
+					<li><a href="">APP官网</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7" >
+				<!--<div class="col-xs-0 col-sm-0 col-md-3 col-lg-3" style="width:90px;"><img src="img/foot1.png" style="width:50px;margin: 0 auto;" /></div>-->
+				<ul class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+					<li><a href="" style="font-size: 16px;color: #fff;">联系我们</a></li>
+					<li><a href="">热线电话：0579-8275-3701</a></li>
+					<li><a href="">手机：15657996255</a></li>
+					<li><a href="">QQ：6625886</a></li>
+					
+					
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 dd" >
+			<ul class="com col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				  <li >
+				<img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/xinhuaribao.png">
+				</li>
+						      <li >
+						        <img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/wuliangye.png">
+						      </li>
+						      <li >
+						        <img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/tengxun.png">
+						      </li>
+						      <li >
+						        <img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/alibaba.png">
+						      </li>
+						      <li >
+						        <img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/sony.png">
+						      </li>
+						      <li >
+						        <img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/wangyi.png">
+						      </li>
+						      <li >
+						        <img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/bmw.png">
+						      </li>
+						      <li >
+						        <img src="http://cdn.jisuapp.cn/zhichi_frontend/static/webapp_home/img/brands/wanda.png">
+						      </li>
+			</ul>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-66" style="background: #ffffff;">
+			<!--<img src="img/foot2.png" />-->
+			<img src="img/wei1.png" />
+		</div>
+		</div>
+		
+	</div>
+	
+ </div>
+<div class="ty">
+		  <ul style="opacity: 1;">
+		    <li class="tel">
+		      <div class="bg"> <span></span> <em>8275370</em> </div>
+		    </li>
+		    <li class="qq"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1410047051&amp;site=qq&amp;menu=yes"></a> </li>
+		    <li class="weixin"> <span></span> <em><img src="img/about.png" alt=""></em> </li>
+		  
+		  </ul>
+         </div>
+<!--联系我们 end here-->
+<!--<script src="http://www.jq22.com/jquery/2.1.1/jquery.min.js"></script>	-->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+
+	});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+
+<script>
+
+	var boo=false;
+	
+	$('#mapContainer').click(function(){
+		if( boo==false){
+			$(this).animate({width:'100px',height:'100px'},300,function(){boo=true});
+		}else{
+			$(this).animate({width:'300px',height:'300px'},300,function(){boo=false});
+		}
+	});
+
+
+</script>
+<!--<script src="js/jquery.min.js"></script>-->
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/owl.carousel-custom.js"></script>
+		
+</body>
+</html>

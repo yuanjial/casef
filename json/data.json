@@ -1,0 +1,96 @@
+{
+	"owl" : [
+		{"item" : "<a class='item'><img src='img/app1.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app2.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app3.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app4.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app5.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app6.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app7.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app8.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app9.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app10.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app11.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app12.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app13.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app14.png' alt=''></a>"},
+		{"item" : "<a class='item'><img src='img/app15.png' alt=''></a>"}
+		
+	],
+	"news_list" : [
+		{
+			"news_item" : "<div class='news_item'><div class='new_list'><div class='dataer'><div class='data'></div><a class='lin'>点击查看详细</a></div><ul class='three-d-box'><li class='cont'></li><li class='front'><div class='details'><a class='news_title'></a></div> </li></ul> <div class='news_pic'><img  src='' /></div></div><div class='news_details'></div></div>"
+		}
+	],
+	"news_informationCompany" :[
+		{
+			"data" : "2018-01-04",
+			"news_title" : "昨天傍晚，微信团队给各位小程序开发者带来了重磅消息——小程序可以变现赚钱了！同时更新了其他多个新能力。",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" :"img/n1.jpg",
+		 	 "href":"news.html"
+		},
+		{
+			"data" : "2018-01-05",
+			"news_title" : "昨天傍晚，微信团队给各位小程序开发者带来了重磅消息——小程序可以变现赚钱了！同时更新了其他多个新能力。",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" :"img/n2.jpg",
+		 	 "href":"news.html"
+		},
+	
+		{
+			"data" : "2018-01-04",
+			"news_title" : "昨天傍晚，微信团队给各位小程序开发者带来了重磅消息——小程序可以变现赚钱了！同时更新了其他多个新能力。",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" : "img/n3.jpg",
+		 	 "href":"news.html"
+		}
+	],
+	"news_informationsIndusty" :[
+		{
+			"data" : "2018-03-04",
+			"news_title" : "昨天傍晚，微信团队给各位小程序开发者带来了重磅消息——小程序可以变现赚钱了！同时更新了其他多个新能力。",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" :"img/n1.jpg",
+		 	 "href":"news.html"
+		},
+		{
+			"data" : "2018-03-05",
+			"news_title" : "昨天傍晚，微信团队给各位小程序开发者带来了重磅消息——小程序可以变现赚钱了！同时更新了其他多个新能力。",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" :"img/n2.jpg",
+		 	 "href":"news.html"
+		},
+	
+		{
+			"data" : "2018-03-04",
+			"news_title" : "昨天傍晚，微信团队给各位小程序开发者带来了重磅消息——小程序可以变现赚钱了！同时更新了其他多个新能力。",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" : "img/n3.jpg",
+		 	 "href":"news.html"
+		}
+		,
+	
+		{
+			"data" : "2018-03-04",
+			"news_title" : "BEB网络开辟宿州政EB网络开辟宿州政府型高端网站EB网络开辟宿州政府型高端网站府型高端网站建设市EB网络开辟宿州政府型高端网站建设市场",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" : "img/n1.jpg",
+		 	 "href":"news.html"
+		}
+		,
+	
+		{
+			"data" : "2018-03-04",
+			"news_title" : "BEB网络开辟宿州政EB网络开辟宿州政府型高端网站EB网络开辟宿州政府型高端网站府型高端网站建设市EB网络开辟宿州政府型高端网站建设市场",
+			"news_details" : "现在的社会发展迅速，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,现在的社会发展迅速，已经由以前的行商转变为现在的坐商，在互联网高速普及的时代，如何树立新的公司形象,",
+		 	"src" : "img/n2.jpg",
+		 	 "href":"news.html"
+		}
+	]
+	
+	
+	
+	
+	
+}
